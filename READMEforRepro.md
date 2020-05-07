@@ -23,6 +23,7 @@ Following this, execute the following commands:
 !git clone https://github.com/williamleif/histwords.git
 ```
 This clones the HistWords repository onto your system, and these files can be accessed on your Colab notebook, using the sidebar visible on your left.
+Note that when running this notebook again later on, there is no need to run this command again, as the repository will already be on your local machine.
 
 
 You can use the `%pwd` and the `%cd` commands to print your working directory and change directories respectively, so that you are in the directory where the HistWords repository is present on your system.
@@ -30,13 +31,13 @@ You can use the `%pwd` and the `%cd` commands to print your working directory an
 ```
 !git clone https://github.com/scikit-learn/scikit-learn.git
 ```
-This command can be used to clone the scikit-learn repository onto your system, as the sklearn library is needed to run the example provided.
+This command can be used to clone the scikit-learn repository onto your system, as the sklearn library is needed to run the example provided. (No need to run this more than once, if you are using this notebook again)
 
 ```
 !example.sh
 ```
 This can be run, to download the pre-trained english fiction word vectors across all time periods, from the project website. (http://nlp.stanford.edu/projects/histwords)
-You may edit this shell file, to download a different set of word vectors.
+You may edit this shell file, to download a different set of word vectors. Again, there is no need to run the shell file multiple times, if you are downloading the same set of embeddings, as they will already be on your system.
 
 
 ```
