@@ -15,7 +15,7 @@ If the 'Python 2' option is not found however, the other option would be to inst
 
 https://research.google.com/colaboratory/local-runtimes.html
 
-After successfully connecting your Colab notebook to a local runtime, you can now run it using Python 2.7, assuming it has been installed on your system.
+After successfully connecting your Colab notebook to a local runtime, you can now run it using Python 2.7, assuming it has been installed on your system. Your local directories will be visible on your left pane, if this is successful.
 
 Following this, execute the following commands:
 
