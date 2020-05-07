@@ -5,7 +5,7 @@
 ### Author: William Hamilton (wleif@stanford.edu)
 ### [Project Website](http://nlp.stanford.edu/projects/histwords)
 
-The Colab notebook written (Importing_Embeddings.ipynb), simply executes the 'example.sh' file provided in the HistWords repository, to download the pre-trained word emebddings for the english fiction corpora taken across all the time periods considered, by the original authors in their study. It also runs the 'example.py' file provided, as well as a custom file of your choice. (nish.py)
+The Colab notebook written (Importing_Embeddings.ipynb), simply executes the 'example.sh' file provided in the HistWords repository, to download the pre-trained word emebddings for the english fiction corpora taken across all the time periods considered, by the original authors in their study. It also runs the 'example.py' file provided, as well as a custom file of your choice. ('nish.py' is the custom file I created on my system, as given in the notebook)
 
 To implement this Colab notebook, kindly take note that the HistWords code should be run using Python 2.7. If you have opened a notebook in Google Colab, you will either need to connect to a hosted runtime, or a local runtime. (Check in the toolbar above)
 
@@ -15,7 +15,7 @@ If the 'Python 2' option is not found however, the other option would be to inst
 
 https://research.google.com/colaboratory/local-runtimes.html
 
-After successfully connecting your Colab notebook to a local runtime, you can now run it using Python 2, assuming it has been installed on your system.
+After successfully connecting your Colab notebook to a local runtime, you can now run it using Python 2.7, assuming it has been installed on your system.
 
 Following this, execute the following commands:
 
@@ -25,7 +25,7 @@ Following this, execute the following commands:
 This clones the HistWords repository onto your system, and these files can be accessed on your Colab notebook, using the sidebar visible on your left.
 
 
-You can use the `%pwd` and the `%cd` commands to print your working directory and change directories respectively, so that your are in the directory where the HistWords repository is present on your system.
+You can use the `%pwd` and the `%cd` commands to print your working directory and change directories respectively, so that you are in the directory where the HistWords repository is present on your system.
 
 ```
 !git clone https://github.com/scikit-learn/scikit-learn.git
