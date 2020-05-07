@@ -10,9 +10,9 @@
 An eclectic collection of tools for analyzing historical language change using vector space semantics.
 
 ## Pre-trained historical embeddings
-
+```
 !git clone https://github.com/williamleif/histwords.git
-
+```
 
 Various embeddings (for many languages and using different embeddings approaches are available on the [project website](http://nlp.stanford.edu/projects/histwords).
 
