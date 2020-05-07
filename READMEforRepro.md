@@ -31,7 +31,7 @@ You can use the `%pwd` and the `%cd` commands to print your working directory an
 ```
 !git clone https://github.com/scikit-learn/scikit-learn.git
 ```
-This command can be used to clone the scikit-learn repository onto your system, as the sklearn library is needed to run the example provided. (No need to run this more than once, if you are using this notebook again)
+This command can be used to clone the scikit-learn repository onto your system, as the sklearn library is needed to run the example provided. (No need to run this more than once, since sklearn only needs to be installed once on your system)
 
 ```
 !example.sh
