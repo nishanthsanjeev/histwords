@@ -7,9 +7,10 @@
 
 The Colab notebook written (Importing_Embeddings.ipynb), simply executes the 'example.sh' file provided in the HistWords repository, to download the pre-trained word emebddings for the english fiction corpora taken across all the time periods considered, by the original authors in their study. It also runs the 'example.py' file provided, as well as a custom file of your choice. ('nish.py' is the custom file I created on my system, as given in the notebook)
 
-To implement this Colab notebook, kindly take note that the HistWords code should be run using Python 2.7. If you have opened a notebook in Google Colab, you will either need to connect to a hosted runtime, or a local runtime. (Check in the toolbar above)
+To implement this Colab notebook, kindly take note that the HistWords code should be run using Python 2.7. 
+If you have opened a notebook in Google Colab, you will either need to connect to a hosted runtime, or a local runtime. (Check in the toolbar above)
 
-If you are connected to a hosted runtime, you are using Google Cloud to run your code. Go to the options at the top of the webpage, and select 'Runtime'. Following this, select 'Python 2', to open a Python 2-run notebook.
+If you are connected to a hosted runtime, you are using Google Cloud to run your code. When executing .py files, use 'python2'. In the event that your browser does not have Python 2 support, go to the options at the top of the webpage, and select 'Runtime'. Following this, select 'Python 2', to open a Python 2-run notebook.
 
 If the 'Python 2' option is not found however, the other option would be to install Python 2 on your local machine, and connect your notebook to a local runtime instead. To do this, the following link will be found useful:  
 
